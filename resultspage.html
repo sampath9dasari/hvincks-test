@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="homepage_css.css" rel="stylesheet" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="Shimplysearch.js" type="text/javascript"></script>
+	<script src="flipkart.js" type="text/javascript"></script>
+	<script src="ebay.js" type="text/javascript"></script>
+	<script src= "searching.js" type="text/javascript"></script>
+	
+</head>
+<body class="results">
+	<div id="header" class="home_head">
+
+		<div id="header_logo" class="main_logo"><img src="main_logo3.png"></div>
+		<div id="search_res" class="search_results_bar">
+		<input id="main_search" class="search_results" type="text" size="25" onkeydown = "if(event.keyCode == 13)document.getElementById('button_results').click()" placeholder="Search..." required>
+			<input id="button_results" type="button" value="Search" onclick='searchterm();'>
+		</div>
+		<div id="home_button" class="header_buttons"><button class="head_button">HOME</button></div>
+		<div id="subscribe_button" class="header_buttons"><button class="head_button">SUBSCRIBE</button></div>
+		<div id="about_button" class="header_buttons"><button class="head_button">ABOUT US</button></div>
+		
+	</div>
+	<div class="center_container" id="center_section">
+	</div>
+	<div id="footer" class="home_foot">
+	</div>
+	
+</body>
+</html>
